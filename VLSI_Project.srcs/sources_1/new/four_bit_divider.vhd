@@ -34,7 +34,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity four_bit_divider is
   Port (
   A,B: in std_logic_vector(3 downto 0);
-  Y,R: out std_logic_vector(3 downto 0);
+  Q,R: out std_logic_vector(3 downto 0)
   );
 end four_bit_divider;
 
@@ -55,7 +55,7 @@ B2 <= B(2);
 B1 <= B(1);
 B0 <= B(0);
 
-Y <= Y3 & Y2 & Y1 & Y0;
+Q <= Y3 & Y2 & Y1 & Y0;
 R <= R3 & R2 & R1 & R0;
 
 Y3 <= (A3 and not(A2) and not(A1) and not(A0) and not(B3) and not(B2) and not(B1) and B0) or (A3 and not(A2) and not(A1) and A0 and not(B3) and not(B2) and not(B1) and B0) or (A3 and not(A2) and A1 and not(A0) and not(B3) and not(B2) and not(B1) and B0) or (A3 and not(A2) and A1 and A0 and not(B3) and not(B2) and not(B1) and B0) or (A3 and A2 and not(A1) and not(A0) and not(B3) and not(B2) and not(B1) and B0) or (A3 and A2 and not(A1) and A0 and not(B3) and not(B2) and not(B1) and B0) or (A3 and A2 and A1 and not(A0) and not(B3) and not(B2) and not(B1) and B0) or (A3 and A2 and A1 and A0 and not(B3) and not(B2) and not(B1) and B0);
