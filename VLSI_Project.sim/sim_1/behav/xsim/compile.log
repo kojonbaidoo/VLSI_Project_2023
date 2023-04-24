@@ -1,0 +1,11 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sources_1/new/eight_bit_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'eight_bit_divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'
+ERROR: [VRFC 10-2989] 'four_bit_divider' is not declared [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:44]
+ERROR: [VRFC 10-2989] 'a' is not declared [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:53]
+ERROR: [VRFC 10-719] formal port/generic <a4> is not declared in <eight_bit_divider> [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:53]
+ERROR: [VRFC 10-3353] formal port 'b0' has no actual or default value [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:53]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:38]
+ERROR: [VRFC 10-1412] syntax error near end [G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd:322]
+INFO: [VRFC 10-3070] VHDL file 'G:/Misc/School/Year_4/2nd Semester/VLSI/project/VLSI_Project/VLSI_Project.srcs/sim_1/new/main_tb.vhd' ignored due to errors
