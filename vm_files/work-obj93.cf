@@ -1,0 +1,7 @@
+v 4
+file . "four_bit_divider_tb.vhd" "7ec665f51780ca0fae94fb055b9e544e0d4b73b9" "20230424212534.600":
+  entity four_bit_divider_tb at 22( 474) + 0 on 13;
+  architecture behavioral of four_bit_divider_tb at 38( 880) + 0 on 14;
+file . "four_bit_divider.vhd" "04742ab483956ee982cdd6c6325c3b956111595a" "20230424212534.214":
+  entity four_bit_divider at 22( 471) + 0 on 11;
+  architecture behavioral of four_bit_divider at 41( 951) + 0 on 12;
